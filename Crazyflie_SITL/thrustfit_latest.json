@@ -1,0 +1,29 @@
+{
+  "input_csv": "/home/dzmitry/CrazySim/scripts/results/flight_motors_20260122_134939.csv",
+  "mass_total_kg": 0.0282,
+  "g": 9.81,
+  "thrust_model": "F_i = a * u_i^2",
+  "a_N_per_u2": 4.599342544058809e-11,
+  "momentConstant_km": 0.005964552,
+  "yaw_model": "tau_z = sum(-dir_i * km * F_i), dir=+1 ccw, -1 cw",
+  "rotor_pos_xy_m": {
+    "1": [
+      0.031,
+      -0.031
+    ],
+    "2": [
+      -0.031,
+      -0.031
+    ],
+    "3": [
+      -0.031,
+      0.031
+    ],
+    "4": [
+      0.031,
+      0.031
+    ]
+  },
+  "dt_est_s": 0.05011248588562367,
+  "fit_samples": 340
+}
